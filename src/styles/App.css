@@ -1,1 +1,22 @@
-
+.modal-overlay{
+    border: 2px solid black;
+    padding: 30px 20px;
+    background-color: aquamarine;
+    margin: 10px 0px;
+}
+.open-btn{
+    background-color: tomato;
+    height: 35px;
+    width: 110px;
+    border-radius: 10px;
+    font-weight: 600;
+    color :white;
+}
+.modal-close{
+    background-color: tomato;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    font-weight: 600;
+    color :white;   
+}

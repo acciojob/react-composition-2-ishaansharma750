@@ -15,6 +15,7 @@ function Modal({ show, onClose, children }) {
         <button className="modal-close" onClick={handleClose}>
           Close
         </button>
+        <p>This is the content of the modal.</p>
         {children}
       </div>
     </div>

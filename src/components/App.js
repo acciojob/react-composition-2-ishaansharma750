@@ -15,7 +15,7 @@ const App = () => {
     <div>
         <button className="open-btn" onClick={() => setModalShow(true)}>Show Modal</button>
         <Modal show={modalShow} onClose={handleModalClose}>
-        <p>This is the content of the modal.</p>
+        
       </Modal>
     </div>
   )
